@@ -250,16 +250,11 @@ li a {
     flex-direction: column;
     align-items: center;
     padding: 60px 30px 30px 30px;
-
     position: static;
     width: 1136px;
     height: 344px;
     left: 152px;
     top: 0px;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -272,23 +267,13 @@ li a {
     height: 38px;
     left: 527px;
     top: 0px;
-
     font-family: Raleway;
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
     line-height: 38px;
-    /* identical to box height */
-
     text-align: center;
-
-    /* Preto/100% */
-
     color: #464646;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -300,11 +285,7 @@ li a {
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
-
     position: static;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -317,24 +298,24 @@ li a {
     justify-content: flex-end;
     align-items: flex-start;
     padding: 16px;
-
     position: static;
     width: 176px;
     height: 174px;
     left: 0px;
     top: 0px;
-
-    /* Preto/branco */
-
     background: #FFFFFF;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
     margin: 0px 16px;
     border: 2px solid black;
+    cursor: pointer;
+}
+
+.skills-html:hover {
+    border-color: goldenrod;
+    transform: scale(1.5) rotate(360deg);
+    transition: all 0.3s;
 }
 
 .skills-css {
@@ -343,24 +324,24 @@ li a {
     justify-content: flex-end;
     align-items: flex-start;
     padding: 16px;
-
     position: static;
     width: 176px;
     height: 174px;
     left: 300px;
     top: 0px;
-
-    /* Preto/branco */
-
     background: #FFFFFF;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
     margin: 0px 16px;
     border: 2px solid black;
+    cursor: pointer;
+}
+
+.skills-css:hover {
+    border-color: goldenrod;
+    transform: scale(1.5) rotate(360deg);
+    transition: all 0.3s;
 }
 
 .skills-js {
@@ -369,24 +350,24 @@ li a {
     justify-content: flex-end;
     align-items: flex-start;
     padding: 16px;
-
     position: static;
     width: 176px;
     height: 174px;
     left: 384px;
     top: 0px;
-
-    /* Preto/branco */
-
     background: #FFFFFF;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 2;
     flex-grow: 0;
     margin: 0px 16px;
     border: 2px solid black;
+    cursor: pointer;
+}
+
+.skills-js:hover {
+    border-color: goldenrod;
+    transform: scale(1.5) rotate(360deg);
+    transition: all 0.3s;
 }
 
 .skills-qa {
@@ -395,49 +376,204 @@ li a {
     justify-content: flex-end;
     align-items: flex-start;
     padding: 16px;
-
     position: static;
     width: 176px;
     height: 174px;
     left: 576px;
     top: 0px;
-
-    /* Preto/branco */
-
     background: #FFFFFF;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 3;
     flex-grow: 0;
     margin: 0px 16px;
     border: 2px solid black;
+    cursor: pointer;
+}
+
+.skills-qa:hover {
+    border-color: goldenrod;
+    transform: scale(1.5) rotate(360deg);
+    transition: all 0.3s;
 }
 
 .programa {
     position: static;
     width: 100px;
     height: 100px;
-    left: 16px;
-    top: 94px;
-
-    font-family: Font Awesome 5 Brands;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 37px;
-    /* identical to box height */
-
     display: flex;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 8px 0px;
+}
+
+/* Hobbies */
+
+.contenido-hobbies {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    padding: 0px;
+    position: static;
+    width: 1136px;
+    height: 244px;
+    left: 152px;
+    top: 332px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 88px 0px;
+}
+
+.texto-hobbies {
+    position: static;
+    width: 127px;
+    height: 38px;
+    left: 504.5px;
+    top: 0px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
     text-align: center;
+    color: #464646;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 32px 0px;
+}
 
-    color: #2A7AE4;
+.hobbies-imagenes {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 1136px;
+    height: 174px;
+    left: 0px;
+    top: 70px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 32px 0px;
+}
 
+.hobbies1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    position: static;
+    width: 176px;
+    height: 174px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
 
-    /* Inside auto layout */
+.hobbies2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    position: static;
+    width: 176px;
+    height: 174px;
+    left: 192px;
+    top: 0px;
+    background: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
 
+.hobbies3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    position: static;
+    width: 176px;
+    height: 174px;
+    left: 384px;
+    top: 0px;
+    background: #FFFFFF;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+
+.hobbies4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    position: static;
+    width: 176px;
+    height: 174px;
+    left: 576px;
+    top: 0px;
+    background: #FFFFFF;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+
+.hobbies5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    position: static;
+    width: 176px;
+    height: 174px;
+    left: 768px;
+    top: 0px;
+    background: #FFFFFF;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+    margin: 0px 16px;
+
+}
+
+.hobbies6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    position: static;
+    width: 176px;
+    height: 174px;
+    left: 960px;
+    top: 0px;
+    background: #FFFFFF;
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+
+.hobbie {
+    position: static;
+    width: 100px;
+    height: 100px;
+    display: flex;
     flex: none;
     order: 0;
     flex-grow: 0;
