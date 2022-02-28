@@ -104,7 +104,7 @@ li a {
 
 /* Nombre */
 
-.prueba {
+.nombre {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -122,7 +122,20 @@ li a {
     margin: 32px 0px;
 }
 
-.prueba1 {
+.minombre {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 751px;
+    height: 246px;
+    left: 0px;
+    top: 61px;
+    margin-left: 100px;
+}
+
+.mifoto {
     position: static;
     width: 368px;
     height: 468px;
@@ -135,19 +148,6 @@ li a {
     flex-grow: 0;
     margin-top: 100px;
     margin-left: 20px;
-}
-
-.prueba2 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    position: static;
-    width: 751px;
-    height: 246px;
-    left: 0px;
-    top: 61px;
-    margin-left: 100px;
 }
 
 .texto-nombre {
@@ -200,7 +200,6 @@ li a {
     width: 1080px;
     left: 0px;
     top: 520px;
-    background: #EAF2FD;
     flex: none;
     order: 2;
     align-self: stretch;
@@ -298,7 +297,6 @@ li a {
     height: 174px;
     left: 0px;
     top: 0px;
-    background: #FFFFFF;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -324,7 +322,6 @@ li a {
     height: 174px;
     left: 300px;
     top: 0px;
-    background: #FFFFFF;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -350,7 +347,6 @@ li a {
     height: 174px;
     left: 384px;
     top: 0px;
-    background: #FFFFFF;
     flex: none;
     order: 2;
     flex-grow: 0;
@@ -376,7 +372,6 @@ li a {
     height: 174px;
     left: 576px;
     top: 0px;
-    background: #FFFFFF;
     flex: none;
     order: 3;
     flex-grow: 0;
@@ -457,7 +452,6 @@ li a {
     height: 170px;
     left: 0px;
     top: 0px;
-    background: #FFFFFF;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -477,7 +471,6 @@ li a {
     height: 170px;
     left: 192px;
     top: 0px;
-    background: #FFFFFF;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -497,7 +490,6 @@ li a {
     height: 170px;
     left: 384px;
     top: 0px;
-    background: #FFFFFF;
     flex: none;
     order: 2;
     flex-grow: 0;
@@ -517,7 +509,6 @@ li a {
     height: 170px;
     left: 576px;
     top: 0px;
-    background: #FFFFFF;
     flex: none;
     order: 3;
     flex-grow: 0;
@@ -537,7 +528,6 @@ li a {
     height: 170px;
     left: 768px;
     top: 0px;
-    background: #FFFFFF;
     flex: none;
     order: 4;
     flex-grow: 0;
@@ -557,7 +547,6 @@ li a {
     height: 170px;
     left: 960px;
     top: 0px;
-    background: #FFFFFF;
     flex: none;
     order: 5;
     flex-grow: 0;
@@ -585,23 +574,16 @@ li a {
     flex-direction: column;
     align-items: center;
     padding: 62px 82px 82px 102px;
-
     position: static;
     width: 1136px;
     left: 0px;
     top: 664px;
-
-    /* Azul/10% */
-
     background: #EAF2FD;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 2;
     align-self: stretch;
     flex-grow: 0;
-    margin: 88px 0px;
+    margin: 88px 0px 0px 0px;
 }
 
 .texto-formacion {
@@ -610,23 +592,13 @@ li a {
     height: 38px;
     left: 550.5px;
     top: 82px;
-
     font-family: Raleway;
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
     line-height: 38px;
-    /* identical to box height */
-
     text-align: center;
-
-    /* Preto/100% */
-
     color: #464646;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -639,15 +611,10 @@ li a {
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
-
     position: static;
     height: 347px;
     left: 152px;
     top: 152px;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -659,16 +626,11 @@ li a {
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    
     position: static;
     width: 250px;
     height: 200px;
     left: 0px;
     top: 0px;
-    
-    
-    /* Inside auto layout */
-    
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -682,16 +644,11 @@ li a {
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-
     position: static;
     width: 250px;
     height: 200px;
     left: 384px;
     top: 0px;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -705,16 +662,11 @@ li a {
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-
     position: static;
     width: 250px;
     height: 200px;
     left: 768px;
     top: 0px;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 2;
     flex-grow: 0;
@@ -729,11 +681,7 @@ li a {
     height: 150px;
     left: 88px;
     top: 78px;
-
     background: url(image.png);
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -747,11 +695,7 @@ li a {
     height: 175px;
     left: 88px;
     top: 78px;
-
     background: url(image.png);
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -771,19 +715,14 @@ li a {
     flex-direction: column;
     align-items: center;
     padding: 0px;
-
     position: static;
-    height: 1886px;
+    height: 1500px;
     left: 152px;
     top: 2212px;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 4;
     flex-grow: 0;
-    margin: 32px 0px;
+    padding: 32px 0px;
 }
 
 .texto-experiencia {
@@ -792,27 +731,17 @@ li a {
     height: 38px;
     left: 387.5px;
     top: 0px;
-
     font-family: Raleway;
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
     line-height: 38px;
-    /* identical to box height */
-
     text-align: center;
-
-    /* Preto/100% */
-
     color: #464646;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 32px 0px;
+    margin: 32px 0px 0px 0px;
 }
 
 .experiencia1 {
@@ -820,20 +749,86 @@ li a {
     flex-direction: row;
     align-items: center;
     padding: 0px;
-
     position: static;
     width: 1136px;
     height: 406px;
     left: 0px;
     top: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 64px 0px;
+}
 
+.btnexperiencia1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 200px;
+    height: 51px;
+    left: 0px;
+    top: 61px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 8px 0px;
+}
+
+.botonexperiencia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+
+    position: static;
+    width: 116px;
+    height: 51px;
+    left: 0px;
+    top: 0px;
+
+    /* Azul/100% */
+
+    border: 1px solid #2A7AE4;
+    box-sizing: border-box;
 
     /* Inside auto layout */
 
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 64px 0px;
+    margin: 0px 16px;
+}
+
+.botonexperiencia1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+
+    position: static;
+    width: 80px;
+    left: 132px;
+    top: 0px;
+
+    /* Azul/100% */
+
+    background: #2A7AE4;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 16px;
 }
 
 .experiencia2 {
@@ -841,20 +836,102 @@ li a {
     flex-direction: row;
     align-items: center;
     padding: 0px;
-
     position: static;
     width: 1136px;
     height: 406px;
     left: 0px;
     top: 470px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 64px 0px;
+}
 
+.prueba2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 368px;
+    height: 138px;
+    left: 0px;
+    top: 134px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 0px 16px;
+}
+
+.btnexperiencia2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 560px;
+    height: 51px;
+    left: 0px;
+    top: 87px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 8px 0px;
+}
+
+.botonexperiencia2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+
+    position: static;
+    width: 116px;
+    height: 51px;
+    left: 0px;
+    top: 0px;
+
+    /* Azul/100% */
+
+    border: 1px solid #2A7AE4;
+    box-sizing: border-box;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+
+.botonexperiencia3 {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    position: static;
+    width: 80px;
+
+    /* Azul/100% */
+
+    background: #2A7AE4;
 
     /* Inside auto layout */
 
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 64px 0px;
+    margin: 0px 16px;
 }
 
 .experiencia3 {
@@ -862,16 +939,11 @@ li a {
     flex-direction: row;
     align-items: center;
     padding: 0px;
-
     position: static;
     width: 1136px;
     height: 406px;
     left: 0px;
     top: 940px;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 2;
     flex-grow: 0;
@@ -883,16 +955,11 @@ li a {
     flex-direction: row;
     align-items: center;
     padding: 0px;
-
     position: static;
     width: 1136px;
     height: 406px;
     left: 0px;
     top: 1410px;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 3;
     flex-grow: 0;
@@ -905,17 +972,13 @@ li a {
     height: 406px;
     left: 0px;
     top: 0px;
-
     background: url(codigo-secreto.png);
     border-radius: 0px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     align-self: stretch;
     flex-grow: 0;
-    margin: 0px 16px;
+    margin: 0px 16px 0px 0px;
 }
 
 .experiencias1 {
@@ -924,18 +987,67 @@ li a {
     height: 406px;
     left: 384px;
     top: 0px;
-
     background: url(ahorcado.png);
     border-radius: 0px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     align-self: stretch;
     flex-grow: 0;
     margin: 0px 16px;
 }
+
+.p-experiencia {
+    font-family: Raleway;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #464646;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 345px;
+    left: 768px;
+    top: 147px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    margin: 0px 16px;
+}
+
+strong {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.prueba {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 368px;
+    height: 112px;
+    left: 768px;
+    top: 147px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    margin: 0px 16px;
+}
+
 
 /* Formulario */
 
@@ -944,18 +1056,11 @@ li a {
     flex-direction: column;
     align-items: center;
     padding: 64px 64px 64px 30px;
-
     position: static;
     height: 788px;
     left: 0px;
     top: 0px;
-
-    /* Azul/10% */
-
     background: #EAF2FD;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -966,21 +1071,16 @@ li a {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 64px 30px 20px 30px;
-
+    padding: 0px 30px 20px 30px;
     position: static;
     width: 1136px;
     height: 660px;
     left: 152px;
     top: 64px;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 30px 0px 30px 130px;
+    margin: 0px 0px 30px 130px;
 }
 
 .imagen-telefono {
@@ -989,11 +1089,7 @@ li a {
     height: 593px;
     left: 0px;
     top: 65.5px;
-
-    background: url(.jpg), #EDEDED;
-
-    /* Inside auto layout */
-
+    background: #EDEDED;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -1005,16 +1101,11 @@ li a {
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-
     position: static;
     width: 656px;
     height: 596px;
     left: 480px;
     top: 64px;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 1;
@@ -1027,22 +1118,12 @@ li a {
     height: 38px;
     left: 0px;
     top: 0px;
-
     font-family: Raleway;
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
     line-height: 38px;
-    /* identical to box height */
-
-
-    /* Preto/100% */
-
     color: #464646;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -1055,20 +1136,12 @@ li a {
     height: 38px;
     left: 0px;
     top: 46px;
-
     font-family: Raleway;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-
-    /* Preto/100% */
-
     color: #464646;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -1080,16 +1153,11 @@ li a {
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-
     position: static;
     width: 656px;
     height: 397px;
     left: 0px;
     top: 116px;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     align-self: stretch;
@@ -1103,14 +1171,8 @@ li a {
     height: 56px;
     left: calc(50% - 656px/2);
     top: 0px;
-
-    /* Preto/branco */
-
     background: #FFFFFF;
     border-radius: 4px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     align-self: stretch;
@@ -1123,16 +1185,11 @@ li a {
     flex-direction: row;
     align-items: center;
     padding: 0px;
-
     position: static;
     width: 500px;
     height: 30px;
     left: 0px;
     top: 20px;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     align-self: stretch;
@@ -1146,14 +1203,8 @@ li a {
     height: 56px;
     left: calc(50% - 656px/2);
     top: 0px;
-
-    /* Preto/branco */
-
     background: #FFFFFF;
     border-radius: 4px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     align-self: stretch;
@@ -1167,14 +1218,8 @@ li a {
     height: 56px;
     left: calc(50% - 656px/2);
     top: 0px;
-
-    /* Preto/branco */
-
     background: #FFFFFF;
     border-radius: 4px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     align-self: stretch;
@@ -1192,14 +1237,8 @@ li a {
     height: 150px;
     left: calc(50% - 656px/2);
     top: 0px;
-
-    /* Preto/branco */
-
     background: #FFFFFF;
     border-radius: 4px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     align-self: stretch;
@@ -1213,20 +1252,12 @@ li a {
     justify-content: center;
     align-items: center;
     padding: 5px 0px 5px 0px;
-
     position: static;
     width: 144px;
     left: 0px;
     top: 545px;
-
-    /* Azul/100% */
-
     background: #2A7AE4;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 2;
     flex-grow: 0;
-    
 }
