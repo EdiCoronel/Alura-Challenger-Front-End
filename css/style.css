@@ -17,6 +17,7 @@ html {
     left: 0%;
     right: 0%;
     top: 0px;
+    
 }
 
 /* Header */
@@ -47,7 +48,6 @@ nav {
     height: 19px;
     left: 32px;
     top: 2.5px;
-
     font-family: Raleway;
     font-style: normal;
     font-weight: bold;
@@ -110,7 +110,6 @@ li a {
     justify-content: space-between;
     align-items: center;
     padding: 0px;
-
     position: static;
     width: 1136px;
     height: 368px;
@@ -140,16 +139,11 @@ li a {
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
-
     position: static;
     width: 467px;
     height: 24px;
     left: 0px;
     top: 222px;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 2;
     flex-grow: 0;
@@ -197,7 +191,7 @@ li a {
     height: 468px;
     left: 768px;
     top: 0px;
-    background: url(../flexbox/img/foto.jpg) no-repeat;
+    background: url(../img/foto.jpg) no-repeat;
     position: static;
     flex: none;
     order: 1;
@@ -618,7 +612,6 @@ li a {
     width: 1136px;
     left: 0px;
     top: 664px;
-    background: #EAF2FD;
     flex: none;
     order: 2;
     align-self: stretch;
@@ -721,7 +714,6 @@ li a {
     height: 150px;
     left: 88px;
     top: 78px;
-    background: url(image.png);
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -1054,7 +1046,6 @@ strong {
     height: 788px;
     left: 0px;
     top: 0px;
-    background: #EAF2FD;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -1083,7 +1074,6 @@ strong {
     height: 593px;
     left: 0px;
     top: 65.5px;
-    background: #EDEDED;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -1165,7 +1155,6 @@ strong {
     height: 56px;
     left: calc(50% - 656px/2);
     top: 0px;
-    background: #FFFFFF;
     border-radius: 4px;
     flex: none;
     order: 0;
@@ -1197,7 +1186,6 @@ strong {
     height: 56px;
     left: calc(50% - 656px/2);
     top: 0px;
-    background: #FFFFFF;
     border-radius: 4px;
     flex: none;
     order: 0;
@@ -1212,7 +1200,6 @@ strong {
     height: 56px;
     left: calc(50% - 656px/2);
     top: 0px;
-    background: #FFFFFF;
     border-radius: 4px;
     flex: none;
     order: 0;
@@ -1231,7 +1218,6 @@ strong {
     height: 150px;
     left: calc(50% - 656px/2);
     top: 0px;
-    background: #FFFFFF;
     border-radius: 4px;
     flex: none;
     order: 0;
