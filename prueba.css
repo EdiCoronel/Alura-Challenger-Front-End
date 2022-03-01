@@ -443,7 +443,7 @@ li a {
     align-items: center;
     position: static;
     width: 100%;
-    height: 300px;
+    height: 500px;
     left: 152px;
     top: 332px;
     flex: none;
@@ -550,7 +550,7 @@ li a {
     flex: none;
     order: 3;
     flex-grow: 0;
-    margin: 0px 0px 0px 16px;
+    margin: 0px 20px 0px 16px;
     border: 2px solid black;
     cursor: pointer;
 }
@@ -572,6 +572,7 @@ li a {
     margin: 0px 0px 0px 16px;
     border: 2px solid black;
     cursor: pointer;
+    margin-top: 15px;
 }
 
 .hobbies6 {
@@ -591,7 +592,8 @@ li a {
     margin: 0px 0px 0px 16px;
     border: 2px solid black;
     cursor: pointer;
-    margin-right: 10px;
+    margin-right: 20px;
+    margin-top: 15px;
 }
 
 .hobbie {
@@ -733,7 +735,6 @@ li a {
     height: 175px;
     left: 88px;
     top: 78px;
-    background: url(image.png);
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -878,8 +879,7 @@ li a {
     top: 134px;
     flex: none;
     order: 0;
-    flex-grow: 1;
-    margin: 0px 16px;
+    flex-grow: 0.3;
 }
 
 .btnexperiencia2 {
@@ -914,7 +914,7 @@ li a {
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 0px 16px;
+    margin: 0px 16px 0px 0px;
 }
 
 .botonexperiencia3 {
@@ -975,13 +975,11 @@ li a {
     height: 406px;
     left: 384px;
     top: 0px;
-    background: url(ahorcado.png);
     border-radius: 0px;
     flex: none;
     order: 1;
     align-self: stretch;
     flex-grow: 0;
-    margin: 0px 16px;
 }
 
 .p-experiencia {
@@ -1002,6 +1000,25 @@ li a {
     order: 1;
     flex-grow: 1;
     margin: 0px 16px;
+}
+
+.p-experiencia1 {
+    font-family: Raleway;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #464646;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 345px;
+    left: 768px;
+    top: 147px;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
 }
 
 strong {
