@@ -752,7 +752,8 @@ li a {
 
 .p-formacion {
     font-weight: bold;
-    margin-left: 30px;
+    margin-left: 10px;
+    font-size: 20px;
 }
 
 .p-formacion1 {
@@ -762,12 +763,18 @@ li a {
 
 .p-formacion2 {
     font-weight: bold;
-    margin-left: 5px;
+    margin-left: 35px;
 }
 
 .p-formacion3 {
     font-weight: bold;
-    margin-left: 30px;
+    margin-left: 28px;
+    font-size: 20px;
+}
+
+.p-formacion4 {
+    font-weight: bold;
+    margin-left: 34px;
 }
 
 /* Experiencia */
@@ -1278,25 +1285,20 @@ strong {
     flex-grow: 0;
 }
 
+/* Footer */
+
 footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 20px;
-
     position: static;
     width: 1303px;
     height: 30px;
     left: 0px;
     top: 788px;
-
-    /* Preto/branco */
-
     background: lightgrey;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -1304,8 +1306,59 @@ footer {
 }
 
 #footer-info {
-    margin-right: 50px;
-    font-weight: bold;
+    margin-right: 100px;
+    font-weight: normal;
     color: #464646;
     font-family: Raleway;
+}
+
+.lista-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    height: 24px;
+    left: 0px;
+    top: 222px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 24px 0px;
+}
+
+.imagen-instragram-footer {
+    position: static;
+    width: 20px;
+    height: 20px;
+    left: 54px;
+    top: 0px;
+    margin: 2px 20px 0px 100px;
+}
+
+.imagen-twitter-footer {
+    position: static;
+    width: 23px;
+    height: 23px;
+    left: 68px;
+    top: 0px;
+    margin: 1px 20px 0px 0px;
+}
+
+.imagen-linkedin-footer {
+    position: static;
+    width: 20px;
+    height: 20px;
+    left: 80px;
+    top: 0px;
+    margin: 2px 20px 0px 0px;
+}
+
+.imagen-github-footer {
+    position: static;
+    width: 20px;
+    height: 20px;
+    left: 73px;
+    top: 0px;
+    margin: 2px 20px 0px 0px;
 }
