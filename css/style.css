@@ -1,7 +1,7 @@
 html {
     position: absolute;
     width: 1333px;
-    height: 5020px;
+    height: 4020px;
     left: 0px;
     top: 0px;
 }
@@ -82,8 +82,8 @@ nav {
 li a {
     text-decoration: none;
     position: static;
-    width: 80px;
-    height: 19px;
+    width: 250px;
+    height: 200px;
     left: 0px;
     top: 0px;
     font-family: Raleway;
@@ -95,7 +95,7 @@ li a {
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 0px 0px 0px 20px;
+    margin: 0px 0px 10px 20px;
 }
 
 .email {
@@ -672,6 +672,12 @@ li a {
     cursor: pointer;
 }
 
+.formacion1:hover {
+    border-color: goldenrod;
+    transform: scale(1.5);
+    transition: all 0.3s;
+}
+
 .formacion2{
     display: flex;
     flex-direction: column;
@@ -688,6 +694,12 @@ li a {
     margin: 0px 16px;
     border: 2px solid black;
     cursor: pointer;
+}
+
+.formacion2:hover {
+    border-color: goldenrod;
+    transform: scale(1.5);
+    transition: all 0.3s;
 }
 
 .formacion3 {
@@ -708,6 +720,12 @@ li a {
     cursor: pointer;
 }
 
+.formacion3:hover {
+    border-color: goldenrod;
+    transform: scale(1.5);
+    transition: all 0.3s;
+}
+
 .formaciones {
     position: static;
     width: 200px;
@@ -717,8 +735,7 @@ li a {
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 15px 0px 25px 15px;
-    padding: 10px 10px 10px 10px
+    margin: 25px 0px 0px 5px;
 }
 
 .formaciones1 {
@@ -730,13 +747,27 @@ li a {
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 10px 0px 10px 15px;
-    padding: 0px 10px 10px 10px
+    margin: 12px 0px 15px 0px;
 }
 
 .p-formacion {
-    text-align: center;
     font-weight: bold;
+    margin-left: 30px;
+}
+
+.p-formacion1 {
+    font-weight: bold;
+    margin-left: 45px;
+}
+
+.p-formacion2 {
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.p-formacion3 {
+    font-weight: bold;
+    margin-left: 30px;
 }
 
 /* Experiencia */
@@ -824,6 +855,7 @@ li a {
     order: 0;
     flex-grow: 0;
     margin: 0px 16px;
+    cursor: pointer;
 }
 
 .botonexperiencia1 {
@@ -833,7 +865,7 @@ li a {
     align-items: center;
     padding: 16px;
     position: static;
-    width: 80px;
+    width: 116px;
     left: 132px;
     top: 0px;
     background: #2A7AE4;
@@ -841,6 +873,7 @@ li a {
     order: 1;
     flex-grow: 0;
     margin: 0px 16px;
+    cursor: pointer;
 }
 
 .experiencia2 {
@@ -907,6 +940,7 @@ li a {
     order: 0;
     flex-grow: 0;
     margin: 0px 16px 0px 0px;
+    cursor: pointer;
 }
 
 .botonexperiencia3 {
@@ -914,12 +948,14 @@ li a {
     flex-direction: row;
     padding: 16px;
     position: static;
-    width: 80px;
+    width: 116px;
     background: #2A7AE4;
     flex: none;
     order: 1;
     flex-grow: 0;
     margin: 0px 16px;
+    justify-content: center;
+    cursor: pointer;
 }
 
 .experiencia3 {
@@ -977,7 +1013,7 @@ li a {
 .p-experiencia {
     font-family: Raleway;
     font-style: normal;
-    font-size: 22px;
+    font-size: 19px;
     line-height: 26px;
     color: #464646;
     display: flex;
@@ -997,7 +1033,7 @@ li a {
 .p-experiencia1 {
     font-family: Raleway;
     font-style: normal;
-    font-size: 22px;
+    font-size: 19px;
     line-height: 26px;
     color: #464646;
     display: flex;
@@ -1041,9 +1077,9 @@ strong {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 64px 64px 64px 30px;
+    padding: 64px 64px 0px 30px;
     position: static;
-    height: 788px;
+    height: 688px;
     left: 0px;
     top: 0px;
     flex: none;
@@ -1240,4 +1276,36 @@ strong {
     flex: none;
     order: 2;
     flex-grow: 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+    position: static;
+    width: 1303px;
+    height: 30px;
+    left: 0px;
+    top: 788px;
+
+    /* Preto/branco */
+
+    background: lightgrey;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+#footer-info {
+    margin-right: 50px;
+    font-weight: bold;
+    color: #464646;
+    font-family: Raleway;
 }
