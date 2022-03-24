@@ -1,0 +1,79 @@
+header {
+    height: 100px;
+}
+
+.navegacion {
+    background-color: lightgray;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 1345px;
+    height: 60px;
+    top: 0px;
+    background-color: lightgray;
+    z-index: 1001;
+}
+
+.barra-nombre {
+    position: static;
+    width: 180px;
+    height: 19px;
+    left: 32px;
+    top: 2.5px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 19px;
+    color: #464646;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 0px 0px 100px;
+    text-decoration: none;
+}
+
+.navegacion-barra-lista{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 700px;
+    height: 19px;
+    left: 483px;
+    top: 34.5px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-left: 150px;
+    margin-right: 120px;
+}
+
+li a {
+    text-decoration: none;
+    position: static;
+    width: 250px;
+    height: 200px;
+    left: 0px;
+    top: 0px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px 10px 20px;
+}
+
+.email {
+    font-weight: bold;
+}

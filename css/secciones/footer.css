@@ -1,0 +1,157 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: static;
+    width: 1303px;
+    height: 30px;
+    left: 0px;
+    top: 788px;
+    background: lightgrey;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+#footer-info {
+    margin-right: 100px;
+    font-weight: normal;
+    color: #464646;
+    font-family: Raleway;
+}
+
+.lista-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    height: 24px;
+    left: 0px;
+    top: 222px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 24px 0px;
+}
+
+.imagen-instragram-footer {
+    position: static;
+    width: 20px;
+    height: 20px;
+    left: 54px;
+    top: 0px;
+    margin: 2px 20px 0px 100px;
+}
+
+.imagen-twitter-footer {
+    position: static;
+    width: 23px;
+    height: 23px;
+    left: 68px;
+    top: 0px;
+    margin: 1px 20px 0px 0px;
+}
+
+.imagen-linkedin-footer {
+    position: static;
+    width: 20px;
+    height: 20px;
+    left: 80px;
+    top: 0px;
+    margin: 2px 20px 0px 0px;
+}
+
+.imagen-github-footer {
+    position: static;
+    width: 20px;
+    height: 20px;
+    left: 73px;
+    top: 0px;
+    margin: 2px 20px 0px 0px;
+}
+
+.cursos {
+    margin: auto;
+    background-color: white;
+    width: 800px;
+    padding: 30px;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.slider {
+    position: relative;
+    width: 500px;
+    height: 321px;
+    border: 2px solid black;
+}
+
+.slider {
+    margin-left: 150px;
+}
+
+ul.slider li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+    background:#fff;
+}
+
+ul.slider li img {
+    width: 100%;
+    height: 321px;
+    object-fit: cover;
+    
+}
+
+ul.slider li:first-child {
+    opacity: 1; 
+}
+
+ul.slider li:target {
+    opacity: 1; 
+}
+
+.menu{
+    text-align: center;
+    margin: 20px;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: #464646;
+    padding: 10px;
+    width: 30px;
+    height: 20px;
+    font-size: 20px;
+}
+
+.texto-cursos {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #464646;
+    margin-bottom: 52px;
+}
