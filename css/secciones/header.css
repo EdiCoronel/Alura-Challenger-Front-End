@@ -21,7 +21,7 @@ nav {
 
 .barra-nombre {
     position: static;
-    width: 180px;
+    width: 160px;
     height: 19px;
     left: 32px;
     top: 2.5px;
@@ -76,4 +76,34 @@ li a {
 
 .email {
     font-weight: bold;
+}
+
+
+@media only screen and (max-width: 500px) and (min-width: 5px) {
+    .barra-nombre {
+        margin: 0px 70px 0px 20px;
+        width: 0px;
+        font-size: 15px;
+        height: 35px;
+        align-items: flex-start;
+        margin-top: 10px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        position: fixed;
+        justify-content: flex-start;
+        height: 160px;
+    }
+
+    .navegacion-barra-lista {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        order: 1;
+        margin-left: 150px;
+        margin-top: 10px;
+    }
 }
